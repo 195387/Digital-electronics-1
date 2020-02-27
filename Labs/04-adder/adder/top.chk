@@ -1,0 +1,84 @@
+
+----------------------------------------
+|  P a r t i t i o n    S u c c e e d  |
+----------------------------------------
+0 Group(s)
+
+----------------- B l o c k 0 ------------------
+PLApt(22/56), Fanin(11/38), Clk(0/3), Bct(0/4), Pin(6/6), Mcell(9/16)
+PLApts[22/26] 25 27 28 2 3 1 11 13 15 21 12 14 6 7 19 20 4 5 8 16 9 () () () () 23
+Fanins[11] FULL_ADDER_2/s_carry1.n N_PZ_38.n N_PZ_39.n SW0_CPLD.p SW10_CPLD.p SW11_CPLD.p SW1_CPLD.p 
+           SW2_CPLD.p SW3_CPLD.p SW8_CPLD.p SW9_CPLD.p
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 9] [LD0(156),LD0(139)] [LD0_CPLD(157),LD0_CPLD(138)] [LD1_CPLD(148),LD1_CPLD(142)]  
+           [LD2_CPLD(147),LD2_CPLD(143)] [LD3_CPLD(150),LD3_CPLD(140)]  
+           [disp_dig_o<1>(158),disp_dig_o<1>(137)] [FULL_ADDER_2/s_carry1(160)] [N_PZ_38(159)]  
+           [N_PZ_39(155)] 
+Signal[ 9] [ 0:  ][ 1:  ][ 2: LD2_CPLD(147) LD2_CPLD(143)  ][ 3: LD1_CPLD(148) LD1_CPLD(142)  ][ 4:  ][ 5:  
+           LD3_CPLD(150) LD3_CPLD(140)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10: N_PZ_39(155)  ][ 11: LD0(156)  
+           LD0(139)  ][ 12: LD0_CPLD(157) LD0_CPLD(138)  ][ 13: disp_dig_o<1>(158) disp_dig_o<1>(137)  ] 
+           [ 14: N_PZ_38(159)  ][ 15: FULL_ADDER_2/s_carry1(160)  ]
+----------------- B l o c k 1 ------------------
+PLApt(19/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(8/8), Mcell(8/16)
+PLApts[19/23] 38 44 46 40 41 42 45 33 37 48 49 29 34 35 32 36 30 43 () () () () 10
+Fanins[ 4] LD0_CPLD.n LD1_CPLD.n LD2_CPLD.n LD3_CPLD.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 8] [disp_dig_o<2>(175),disp_dig_o<2>(10)] [disp_seg_o<0>(174),disp_seg_o<0>(9)]  
+           [disp_seg_o<1>(163),disp_seg_o<1>(3)] [disp_seg_o<2>(164),disp_seg_o<2>(4)]  
+           [disp_seg_o<3>(161),disp_seg_o<3>(2)] [disp_seg_o<4>(172),disp_seg_o<4>(6)]  
+           [disp_seg_o<5>(165),disp_seg_o<5>(5)] [disp_seg_o<6>(173),disp_seg_o<6>(7)] 
+Signal[ 8] [ 0: disp_seg_o<3>(161) disp_seg_o<3>(2)  ][ 1:  ][ 2: disp_seg_o<1>(163) disp_seg_o<1>(3)  ][ 3:  
+           disp_seg_o<2>(164) disp_seg_o<2>(4)  ][ 4: disp_seg_o<5>(165) disp_seg_o<5>(5)  ][ 5:  ][ 6:  ] 
+           [ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11: disp_seg_o<4>(172) disp_seg_o<4>(6)  ][ 12: disp_seg_o<6>(173)  
+           disp_seg_o<6>(7)  ][ 13: disp_seg_o<0>(174) disp_seg_o<0>(9)  ][ 14: disp_dig_o<2>(175)  
+           disp_dig_o<2>(10)  ][ 15:  ]
+----------------- B l o c k 2 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(6/6), Mcell(2/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 6] [disp_dig_o<0>(178),disp_dig_o<0>(135)] [disp_dig_o<3>(177),disp_dig_o<3>(136)] [SW0_CPLD(134)]  
+           [SW10_CPLD(133)] [SW11_CPLD(132)] [SW1_CPLD(131)] 
+Signal[ 6] [ 0: disp_dig_o<3>(177) disp_dig_o<3>(136)  ][ 1: disp_dig_o<0>(178) disp_dig_o<0>(135)  ][ 2:  
+           SW0_CPLD(134)  ][ 3:  ][ 4: SW10_CPLD(133)  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11:  ] 
+           [ 12:  ][ 13: SW11_CPLD(132)  ][ 14:  ][ 15: SW1_CPLD(131)  ]
+----------------- B l o c k 3 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(4/8), Mcell(0/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 4] [SW2_CPLD(11)] [SW3_CPLD(12)] [SW8_CPLD(13)] [SW9_CPLD(14)] 
+Signal[ 4] [ 0: SW2_CPLD(11)  ][ 1: SW3_CPLD(12)  ][ 2: SW8_CPLD(13)  ][ 3: SW9_CPLD(14)  ][ 4: (15)  ][ 5:  
+           (16)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11: (17)  ][ 12:  ][ 13: (18)  ][ 14:  ][ 15:  ]
+----------------- B l o c k 4 ------------------
+----------------- B l o c k 5 ------------------
+----------------- B l o c k 6 ------------------
+----------------- B l o c k 7 ------------------
+----------------- B l o c k 8 ------------------
+----------------- B l o c k 9 ------------------
+----------------- B l o c k 10 ------------------
+----------------- B l o c k 11 ------------------
+----------------- B l o c k 12 ------------------
+----------------- B l o c k 13 ------------------
+----------------- B l o c k 14 ------------------
+----------------- B l o c k 15 ------------------

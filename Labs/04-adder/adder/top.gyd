@@ -1,0 +1,57 @@
+Pin Freeze File:  version P.20131013
+
+2C256144 XC2C256-6-TQ144
+SW0_CPLD S:PIN134
+SW10_CPLD S:PIN133
+SW11_CPLD S:PIN132
+SW1_CPLD S:PIN131
+SW2_CPLD S:PIN11
+SW3_CPLD S:PIN12
+SW8_CPLD S:PIN13
+SW9_CPLD S:PIN14
+LD0_CPLD S:PIN138
+LD0 S:PIN139
+LD1_CPLD S:PIN142
+LD2_CPLD S:PIN143
+LD3_CPLD S:PIN140
+disp_dig_o<0> S:PIN135
+disp_dig_o<1> S:PIN137
+disp_dig_o<2> S:PIN10
+disp_dig_o<3> S:PIN136
+disp_seg_o<0> S:PIN9
+disp_seg_o<1> S:PIN3
+disp_seg_o<2> S:PIN4
+disp_seg_o<3> S:PIN2
+disp_seg_o<4> S:PIN6
+disp_seg_o<5> S:PIN5
+disp_seg_o<6> S:PIN7
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_3 LD2_CPLD LD1_CPLD
+PARTITION FB1_6 LD3_CPLD
+PARTITION FB1_11 N_PZ_39 LD0 LD0_CPLD disp_dig_o<1>
+		 N_PZ_38 FULL_ADDER_2/s_carry1
+PARTITION FB2_1 disp_seg_o<3>
+PARTITION FB2_3 disp_seg_o<1> disp_seg_o<2> disp_seg_o<5>
+PARTITION FB2_12 disp_seg_o<4> disp_seg_o<6> disp_seg_o<0> disp_dig_o<2>
+		
+
+PARTITION FB3_1 disp_dig_o<3> disp_dig_o<0>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

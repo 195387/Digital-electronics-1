@@ -1,0 +1,8 @@
+EN hex_to_7seg NULL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/03-segment/hex_to_segment/hex_to_7seg.vhd sub00/vhpl04 1582793898
+EN half_adder NULL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/half_adder.vhd sub00/vhpl00 1582793894
+EN top NULL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/top.vhd sub00/vhpl06 1582793900
+EN full_adder NULL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/full_adder.vhd sub00/vhpl02 1582793896
+AR hex_to_7seg behavioral /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/03-segment/hex_to_segment/hex_to_7seg.vhd sub00/vhpl05 1582793899
+AR full_adder behavioral /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/full_adder.vhd sub00/vhpl03 1582793897
+AR half_adder behavioral /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/half_adder.vhd sub00/vhpl01 1582793895
+AR top behavioral /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/top.vhd sub00/vhpl07 1582793901

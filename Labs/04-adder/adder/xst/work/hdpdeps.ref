@@ -1,0 +1,29 @@
+V3 15
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/03-segment/hex_to_segment/hex_to_7seg.vhd 2020/02/20.08:57:34 P.20131013
+EN work/hex_to_7seg 1582793898 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/03-segment/hex_to_segment/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1582793899 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/03-segment/hex_to_segment/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1582793898
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/full_adder.vhd 2020/02/27.08:47:37 P.20131013
+EN work/full_adder 1582793896 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1582793897 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/full_adder.vhd \
+      EN work/full_adder 1582793896 CP work/half_adder
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/half_adder.vhd 2020/02/27.08:19:38 P.20131013
+EN work/half_adder 1582793894 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1582793895 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/half_adder.vhd \
+      EN work/half_adder 1582793894
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/top.vhd 2020/02/27.09:53:05 P.20131013
+EN work/top 1582793900 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1582793901 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/04-adder/adder/top.vhd \
+      EN work/top 1582793900 CP work/full_adder CP work/hex_to_7seg
