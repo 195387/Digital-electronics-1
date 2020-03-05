@@ -1,0 +1,4 @@
+vhdl work "hex_to_7seg.vhd"
+vhdl work "binary_counter.vhd"
+vhdl work "binary_cnt.vhd"
+vhdl work "top.vhd"

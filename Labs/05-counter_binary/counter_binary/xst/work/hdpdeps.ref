@@ -1,0 +1,30 @@
+V3 15
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/binary_cnt.vhd 2020/03/05.08:42:06 P.20131013
+EN work/binary_cnt 1583398763 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/binary_cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1583398764 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/binary_cnt.vhd \
+      EN work/binary_cnt 1583398763
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/binary_counter.vhd 2020/03/05.08:36:39 P.20131013
+EN work/clock_enable 1583398761 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/binary_counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1583398762 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/binary_counter.vhd \
+      EN work/clock_enable 1583398761
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/hex_to_7seg.vhd 2020/03/05.09:25:43 P.20131013
+EN work/hex_to_7seg 1583398765 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1583398766 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1583398765
+FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/top.vhd 2020/03/05.09:54:04 P.20131013
+EN work/top 1583398767 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1583398768 \
+      FL /home/lab661/Documents/xmarek65/Digital-electronics-1/Labs/05-counter_binary/counter_binary/top.vhd \
+      EN work/top 1583398767 CP work/clock_enable CP work/binary_cnt \
+      CP work/hex_to_7seg
