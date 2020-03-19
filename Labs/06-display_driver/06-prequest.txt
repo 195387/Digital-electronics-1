@@ -1,0 +1,3 @@
+2. Podívejte se, jak pøiøadit signál vnì a uvnitø procesu. Jaký je rozdíl mezi kombinaèními a sekvenèními procesy?
+
+Kombinované obvody jsou èasovì nezávislé obvody, u kterých generování jakéhokoli výstupu nezávisí na pøedchozích vstupech, za to sekvenèní obvody jsou závislé na hodinových cyklech a závisejí na souèasných i minulých vstupech pro generování jakéhokoli výstupu.
