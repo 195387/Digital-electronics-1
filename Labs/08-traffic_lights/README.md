@@ -1,30 +1,30 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_unsigned.all;
+	library IEEE;
+	use IEEE.STD_LOGIC_1164.ALL;
+	use IEEE.STD_LOGIC_unsigned.all;
 
-entity traffic is
+	entity traffic is
 
-port (clk: in STD_LOGIC;
+	port (clk: in STD_LOGIC;
 		clr: in STD_LOGIC;
 		lights: out STD_LOGIC_VECTOR(5 downto 0)
 		);
 
-end traffic;
+	end traffic;
 
---Behavioral
+	--Behavioral
 
-architecture traffic of traffic is
+	architecture traffic of traffic is
 
-type state_type is (GR, YR, RR, RG, RY, RR2);
+	type state_type is (GR, YR, RR, RG, RY, RR2);
 
-signal state: state_type;
-signal Pocet: STD_LOGIC_VECTOR(3 downto 0);
-constant sekund5: STD_LOGIC_VECTOR(3 downto 0) := "1111";
-constant sekunda: STD_LOGIC_VECTOR(3 downto 0) := "0011";
+	signal state: state_type;
+	signal Pocet: STD_LOGIC_VECTOR(3 downto 0);
+	constant sekund5: STD_LOGIC_VECTOR(3 downto 0) := "1111";
+	constant sekunda: STD_LOGIC_VECTOR(3 downto 0) := "0011";
 
-begin
+	begin
 
-process(clk, clr)
+	process(clk, clr)
 
 	begin 
 		if clr = '1' then
@@ -92,9 +92,9 @@ process(clk, clr)
 				state <= GR;
 		end case;
 	end if;
-end process;
+	end process;
 
-C2: process(state)
+	C2: process(state)
 
 	begin
 		
@@ -109,5 +109,5 @@ C2: process(state)
 			when others => lights <= "100001";		
 		end case;
 	end process;		
-end traffic;
+	end traffic;
 
